@@ -68,4 +68,4 @@ topic_model = BERTopic()
 topics, probabilities = topic_model.fit_transform(datalist)
 # print(topic_model.get_topic_info())
 topic_model.visualize_barchart().show()
-
+topic_model.visualize_hierarchy().show()
